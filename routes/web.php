@@ -1,5 +1,7 @@
 <?php
+
 use Core\Router\Web\Route;
+
 Route::get('/' , [HomeController::class , 'index']);
 Route::get('/users' , [\App\http\Controller\UserController::class , 'index']);
 Route::get('/create_user' , [\App\http\Controller\UserController::class , 'create']);

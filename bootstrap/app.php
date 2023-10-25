@@ -1,5 +1,5 @@
 <?php
 
-require_once "../config/app.php";
-require_once "../routes/api.php";
-require_once "../routes/web.php";
+require_once __DIR__. "/../config/app.php";
+require_once __DIR__. "/../routes/api.php";
+require_once __DIR__. "/../routes/web.php";
